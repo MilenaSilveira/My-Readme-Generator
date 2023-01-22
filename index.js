@@ -38,8 +38,16 @@ inquirer
 
 ])
 // TODO: Create an array of questions for user input
-const questions = [];
+// const questions = [];
 
+.then(async response => {
+    data.title = response.title;
+    data.description = response.description;
+    data.installation = response.installation;
+    data.usage = response.usage;
+    data.credits = response.credits;
+    data.license = response.license;
+}
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
