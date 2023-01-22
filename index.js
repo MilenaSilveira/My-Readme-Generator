@@ -11,8 +11,30 @@ inquirer
     {
         type: 'input',
         message: 'Enter a short description of your project: ',
-        name: 'title'  
-    }
+        name: 'description'  
+    },
+    {
+        type: 'input',
+        message: 'Enter installation instructions: ',
+        name: 'installation'  
+    },
+    {
+        type: 'input',
+        message: 'Enter usage information: ',
+        name: 'usage'  
+    },
+    {
+        type: 'input',
+        message: 'Enter credits to collaborators: ',
+        name: 'credits'  
+    },
+    {
+        type: 'list',
+        choices: ['None','MIT License','GNU Public License v3.0','Apache License 2.0'],
+        name: 'license'  
+    },
+
+
 
 ])
 // TODO: Create an array of questions for user input
