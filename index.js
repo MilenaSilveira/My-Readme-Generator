@@ -1,5 +1,20 @@
 // TODO: Include packages needed for this application
+const inquirer = require('inquirer');
 
+inquirer
+.prompt([
+    {
+        type: 'input',
+        message: 'Enter your project title: ',
+        name: 'title'
+    },
+    {
+        type: 'input',
+        message: 'Enter a short description of your project: ',
+        name: 'title'  
+    }
+
+])
 // TODO: Create an array of questions for user input
 const questions = [];
 
