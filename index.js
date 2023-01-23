@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown');
 
 
 // TODO: Create an array of questions for user input
@@ -28,19 +28,40 @@ const questions =  [
     },
     {
         type: 'list',
-        choices: ['None','MIT License','GNU Public License v3.0','Apache License 2.0'],
+        message: 'Select a license for this project: ',
+        choices: ['MIT License','GNU Public License','Apache License', 'None'],
         name: 'license'  
     },
 
     {
         type: 'input',
-        message: 'Enter contribution specifications: ',
+        message: 'Enter contributors details: ',
         name: 'contributing'  
     },
     {
         type: 'input',
         message: 'Enter testing procedures: ',
         name: 'test'  
+    },
+    {
+        type: 'input',
+        message: 'Enter your GitHub username: ',
+        name: 'gitname'  
+    },
+    {
+        type: 'input',
+        message: 'Enter the link for your GitHub: ',
+        name: 'github'  
+    },
+    {
+        type: 'input',
+        message: 'Enter your LinkedIn URL: ',
+        name: 'test'  
+    },
+    {
+        type: 'input',
+        message: 'Enter your contact email for questions: ',
+        name: 'email'  
     },
 ];
 
