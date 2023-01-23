@@ -54,6 +54,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ### Created by: ${data.name}
+
   ${renderLicenseSection(data.license)}
 
   ## Description
