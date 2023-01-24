@@ -1,15 +1,15 @@
-# grm 👋
+# Readme Generator 👋
 
-  ### Created by: mil
+  ### Created by: Milena Silveira
 
   ## License
 License information for this project: 
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-(https://opensource.org/licenses/MIT)
+( https://opensource.org/licenses/MIT)
 
   ## Description
-  dddd
+  This is a readme generator project using node.
 
   ## Table of Contents
   -[Installation](#installation)
@@ -25,23 +25,23 @@ License information for this project:
   -[Questions](#questions)
 
   ## Installation
-  dddd
+  No installation needed.
 
   ## Usage
-  ddddd
+  Simply enter the required information on the terminal to generate Readme.
 
   ## Contributing
-  dddd
+  Open
 
   ## Tests
-  dddd
+  Test
 
   ## Questions
-  ✉️ If you have any additional questions please contact me at ddddd.
+  ✉️ If you have any additional questions please contact me at milenacsilveira@gmail.com.
 
   You can also access my LinkedIn and Github pages through the links below:
   
-  ### Linkedin: dddddd
-  ### GitHub: https://github.com/ddd
+  ### Linkedin: https://www.linkedin.com/in/milena-silveira-80239b166/
+  ### GitHub: https://github.com/MilenaSilveira
 
 
