@@ -46,7 +46,7 @@ const questions =  [
     {
         type: 'input',
         message: 'Enter testing procedures: ',
-        name: 'test'  
+        name: 'tests'  
     },
     {
         type: 'input',

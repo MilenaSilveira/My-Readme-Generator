@@ -20,13 +20,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if(license === 'MIT License'){
-        return `https://opensource.org/licenses/MIT`
+        return (`https://opensource.org/licenses/MIT`)
     }
     else if(license === 'GNU Public License'){
-        return 'https://www.gnu.org/licenses/gpl-3.0'
+        return (`https://www.gnu.org/licenses/gpl-3.0`)
     }
     else if(license === 'Apache License'){
-        return `https://opensource.org/licenses/Apache-2.0`
+        return (`https://opensource.org/licenses/Apache-2.0`)
     }
     else{
         return ''
@@ -69,7 +69,7 @@ function generateMarkdown(data) {
 
   -[Contributing](#contributing)
 
-  -[Tests](#test)
+  -[Tests](#tests)
 
   -[Questions](#questions)
 
@@ -83,7 +83,7 @@ function generateMarkdown(data) {
   ${data.contributing}
 
   ## Tests
-  ${data.test}
+  ${data.tests}
 
   ## Questions
   If you have any additional questions please contact me at ${data.email}.
