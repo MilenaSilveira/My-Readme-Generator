@@ -2,13 +2,13 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     if(license === 'MIT License'){
-       return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)` 
+        return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]` 
     }
     else if(license === 'GNU Public License'){
-        return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+        return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`
     }
     else if(license === 'Apache License'){
-        return `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
+        return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`
     }
     else{
         return ''
@@ -20,13 +20,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if(license === 'MIT License'){
-        return (`https://opensource.org/licenses/MIT`)
+        return `https://opensource.org/licenses/MIT`
     }
     else if(license === 'GNU Public License'){
-        return (`https://www.gnu.org/licenses/gpl-3.0`)
+        return `https://www.gnu.org/licenses/gpl-3.0`
     }
     else if(license === 'Apache License'){
-        return (`https://opensource.org/licenses/Apache-2.0`)
+        return `https://opensource.org/licenses/Apache-2.0`
     }
     else{
         return ''
@@ -86,7 +86,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  If you have any additional questions please contact me at ${data.email}.
+  ✉️ If you have any additional questions please contact me at ${data.email}.
 
   You can also access my LinkedIn and Github pages through the links below:
   
